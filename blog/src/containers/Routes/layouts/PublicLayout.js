@@ -18,8 +18,7 @@ const PublicLayout = () => {
           <Route path='/blog-detail/:id' element={<ViewDetailPage/>} />
           <Route path='/add-edit' element={<AddEditBlogPage/>} />
           <Route path='/add-edit/:id' element={<AddEditBlogPage/>} />
-          <Route path='*' element={NotFoundPage} />
-          
+          <Route path='*' element={<NotFoundPage />} />
         </Routes>
     </>
   );
